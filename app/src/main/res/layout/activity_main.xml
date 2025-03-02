@@ -6,16 +6,32 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:padding="16dp">
 
-    <Button
-        android:text="Tính"
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/et_hoten"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:hint="Họ tên"/>
+
+    <TextView
+        android:id="@+id/et_msv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên"/>
+
+    <TextView
+        android:id="@+id/et_ngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm sinh"
+        android:inputType="number"/>
+
+
     <TextView
         android:id="@+id/text"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </LinearLayout>
